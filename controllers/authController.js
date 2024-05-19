@@ -73,7 +73,7 @@ const login = async(req, res)=>{
         maxAge: 7 * 24 * 60 * 60 * 1000,
 
     })
-    res.json({ accessToken, emai: foundUser.email })
+    res.json({ accessToken, emai: foundUser.email , first_name:foundUser.first_name , last_name:foundUser.last_name})
 }
 module.exports={
     register,

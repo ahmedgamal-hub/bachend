@@ -3,6 +3,6 @@ const router = express.Router()
 
 
 router.get("/", (req ,res)=>{
-    res.send("hellow ahmed")
+    res.send("hellow world")
 })
 module.exports = router 
